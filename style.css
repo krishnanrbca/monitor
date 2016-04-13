@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+.menu{
+	transition: all ease-out 0.3s;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding: 10px 10px 10px 10px;
+	border: 4px;
+	border-bottom-style:inset;
+	border-bottom-color:#CC0000;
+}
+.menu:hover{
+	color:#FFFFFF;
+	border: 4px;
+	border-bottom-style:inset;
+	padding: 10px 10px 10px 10px;
+	border-bottom-color:white;
+}
+.active{
+	
+	color:#FFFFFF;
+	border: 4px;
+	border-bottom-style:inset;
+	border-bottom-color:white;
+	font-weight: bold;
+	text-shadow:#000;
+
+
+}
+.imag{
+	padding-top:10px; 
+	border-bottom-style:thick;  
+
+
+
+	border-bottom-color: #F00;
+	
+}
+.heading{
+	font-size:26px;
+	color: #FFFFFF;
+	font-family:'Arial Black', Gadget, sans-serif;	
+	background-color: #000;
+	padding:10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.heading2{
+	font-size:24px;
+	color: #FFFFFF;
+	font-family:'Arial Black', Gadget, sans-serif;	
+	background-color: #000;
+	padding:15px 0 15px 0;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.lbox{
+	padding: 10px;
+	color: #000;
+	background-color: transparent;
+	border-top:none;
+	border-right:none;
+	border-bottom: inset;	
+	border-left: none;
+	border-color:#999999;
+	font-size:16px;
+	outline:none;
+}
+.lbox:hover{
+	background-color: #DFDFDF;
+}
+.go{
+	padding:5px 20px 5px 20px;
+	border:inset;
+	border-width:1px;
+	border-color:#E95827;
+	color:#E95827;
+	font-size:14px;	
+	font-family: "Arial Black", Gadget, sans-serif ;
+	border-radius:10px;
+	outline:0px;
+}
+.go:hover{
+	transition:all ease-out 0.3s;
+	background-color: #E95827;
+	border:inset;
+	border-width:1px;
+	border-color:#FFF;
+	color:white;
+}
+.read{
+	padding:5px 15px 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F30;
+	border: thin inset #F30;
+	color:white;
+	border-radius:5px;
+	outline:0px;
+}
+.read:hover{
+	transition:all ease-out 0.3s;
+	background-color: white;	
+	color: #900;
+	font-weight:bold;
+	border-color: #F30;
+	border: thin inset #F30;
+	border-radius:5px;
+}
+.link{
+	color:#000000;
+	text-decoration:none;
+}
+.link:hover{
+	transition:all ease-out 0.3s;
+	color:#FFFFFF;	
+}
+.act{
+	color:white;	
+}
